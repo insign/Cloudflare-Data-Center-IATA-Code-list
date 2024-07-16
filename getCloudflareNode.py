@@ -1,5 +1,6 @@
 import requests
 import json
+import re
 
 # 从 Cloudflare 节点状态中获取，目前（2024-07-13）共 329 个
 url = "https://www.cloudflarestatus.com/api/v2/components.json"
@@ -31,7 +32,7 @@ for component in components:
         if len(parts) == 2:
             location = parts[0].strip()
             code = parts[1].strip().strip("()")
-            result[code] = location
+            result[code] = re.sub(",.*,", ",", location)
 
 # 保存结果
 with open("cloudflare-iata.json", "w", encoding="utf-8", newline="\n") as f:
