@@ -34,6 +34,10 @@ for component in components:
             code = parts[1].strip().strip("()")
             result[code] = re.sub(",.*,", ",", location)
 
+# 特殊处理
+result["JIB"] = "Djibouti City"
+result["SIN"] = "Singapore"
+
 # 保存结果
 with open("cloudflare-iata.json", "w", encoding="utf-8", newline="\n") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
