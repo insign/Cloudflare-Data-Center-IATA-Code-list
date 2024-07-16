@@ -41,20 +41,3 @@ result["SIN"] = "Singapore"
 # 保存结果
 with open("cloudflare-iata.json", "w", encoding="utf-8", newline="\n") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
-
-# # 保存临时结果
-# with open("test-cloudflare-iata-zh.txt", "w", encoding="utf-8", newline="\n") as f:
-#     locations = [loc + "\n" for loc in result.values()]
-#     f.writelines(locations)
-
-# # 手动翻译后替换 test-cloudflare-iata-zh.txt 的内容
-# # 然后注释保存临时结果的代码后运行以下部分（
-# replaced_data = {}
-# with open('test-cloudflare-iata-zh.txt', 'r', encoding='utf-8') as f:
-#     cities = [line.strip() for line in f if line.strip()]
-# for index, city in enumerate(cities):
-#     code = list(result.keys())[index]
-#     replaced_data[code] = city
-# # 写入替换翻译后的
-# with open('cloudflare-iata-zh.json', 'w', encoding='utf-8', newline="\n") as f:
-#     json.dump(replaced_data, f, ensure_ascii=False, indent=2)
