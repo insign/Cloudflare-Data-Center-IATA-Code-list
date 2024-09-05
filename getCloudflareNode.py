@@ -39,5 +39,5 @@ result["JIB"] = "Djibouti City"
 result["SIN"] = "Singapore"
 
 # 保存结果
-with open("cloudflare-iata.json", "w", encoding="utf-8", newline="\n") as f:
+with open("cloudflare-iata.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)

@@ -15,5 +15,5 @@ for code, name in result.items():
     else:
         print(f"原文 {name} 暂无翻译")
 
-with open("cloudflare-iata-zh.json", "w", encoding="utf-8", newline="\n") as f:
+with open("cloudflare-iata-zh.json", "w", encoding="utf-8") as f:
     json.dump(zh_result, f, ensure_ascii=False, indent=2)
