@@ -37,6 +37,7 @@ for component in components:
 # 特殊处理
 result["JIB"] = "Djibouti City"
 result["SIN"] = "Singapore"
+result["LOCAL"] = "LOCAL"
 
 # 保存结果
 with open("cloudflare-iata.json", "w", encoding="utf-8") as f:

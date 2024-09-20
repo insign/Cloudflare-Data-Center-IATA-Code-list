@@ -32,7 +32,6 @@
   "BSR": "Basra, Iraq",
   "CHC": "Christchurch, New Zealand",
   "BEY": "Beirut, Lebanon",
-  "CMN": "Casablanca, Morocco",
   "BUF": "Buffalo, United States",
   "BWN": "Bandar Seri Begawan, Brunei",
   "BNU": "Blumenau, Brazil",
@@ -333,5 +332,6 @@
   "XIY": "Baoji, China",
   "CTU": "Chengdu, China",
   "NQZ": "ASTANA, Kazakhstan",
-  "NNG": "Nanning, China"
+  "NNG": "Nanning, China",
+  "LOCAL": "LOCAL"
 }
