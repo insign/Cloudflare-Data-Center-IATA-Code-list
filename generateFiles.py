@@ -24,7 +24,7 @@ def write_headers_file(output_dir):
   Cache-Control: public, max-age=86400
   Content-Type: text/plain; charset=UTF-8
 """
-    headers_file_path = os.path.join(output_dir, "__headers__")
+    headers_file_path = os.path.join(output_dir, "_headers")
     with open(headers_file_path, "w", encoding="utf-8") as f:
         f.write(headers)
 
