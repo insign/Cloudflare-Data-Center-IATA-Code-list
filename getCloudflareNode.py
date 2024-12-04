@@ -2,7 +2,7 @@ import requests
 import json
 import re
 
-# 从 Cloudflare 节点状态中获取，目前（2024-08-18）共 333 个
+# 从 Cloudflare 节点状态中获取，目前（2024-12-04）共 338 个
 url = "https://www.cloudflarestatus.com/api/v2/components.json"
 
 response = requests.get(url)
