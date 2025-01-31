@@ -152,7 +152,6 @@
   "MSP": "Minneapolis, United States",
   "FIH": "Kinshasa, DR Congo",
   "LUX": "Luxembourg City, Luxembourg",
-  "MGM": "Montgomery, United States",
   "HYD": "Hyderabad, India",
   "MAO": "Manaus, Brazil",
   "CAI": "Cairo, Egypt",
@@ -236,7 +235,6 @@
   "TGU": "Tegucigalpa, Honduras",
   "TLH": "Tallahassee, United States",
   "TBS": "Tbilisi, Georgia",
-  "MDL": "Mandalay, Myanmar",
   "NVT": "Timbo, Brazil",
   "MNL": "Manila, Philippines",
   "SKG": "Thessaloniki, Greece",
@@ -247,7 +245,6 @@
   "VIX": "Vitoria, Brazil",
   "YVR": "Vancouver, Canada",
   "NAG": "Nagpur, India",
-  "KLD": "Tver, Russian Federation",
   "VIE": "Vienna, Austria",
   "YWG": "Winnipeg, Canada",
   "OKA": "Naha, Japan",
@@ -300,7 +297,6 @@
   "ULN": "Ulaanbaatar, Mongolia",
   "VTE": "Vientiane, Laos",
   "KHN": "Nanchang, China",
-  "RGN": "Yangon, Myanmar",
   "EVN": "Yerevan, Armenia",
   "JOG": "Yogyakarta, Indonesia",
   "ZGN": "Zhongshan, China",
@@ -336,5 +332,6 @@
   "NNG": "Nanning, China",
   "KCH": "Kuching, Malaysia",
   "AKX": "Aktobe, Kazakhstan",
+  "TEN": "Tongren, China",
   "LOCAL": "LOCAL"
 }
