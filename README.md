@@ -1,4 +1,4 @@
-# Cloudflare-Data-Center-IATA-Code-list
+# [Cloudflare-Data-Center-IATA-Code-list](https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list)
 
 Cloudflare 最全数据中心及其 IATA 代码列表
 
@@ -46,4 +46,4 @@ Data retrieved from [Cloudflare System Status](https://www.cloudflarestatus.com/
 
 A special case has been added: `LOCAL` is used to identify the local network for use in the local network
 
-Pull requests and issuses are welcome ~
+Pull requests and issues are welcome ~
