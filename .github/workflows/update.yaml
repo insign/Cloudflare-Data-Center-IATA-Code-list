@@ -1,4 +1,4 @@
-name: Update Dicts
+name: Update Node Info
 on:
   schedule:
     - cron: "0 0 * * 1"

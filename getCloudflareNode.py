@@ -24,9 +24,9 @@ if os.path.exists(output_file):
     try:
         with open(output_file, "r", encoding="utf-8") as f:
             existing_data = json.load(f)
-        print(f"已读取现有数据，包含 {len(existing_data)} 个节点")
+        print(f"Current data, containing {len(existing_data)} nodes")
     except Exception as e:
-        print(f"读取现有数据失败: {e}")
+        print(f"Failed to read existing data: {e}")
         existing_data = {}
 
 # 获取新数据
