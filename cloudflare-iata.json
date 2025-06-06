@@ -39,7 +39,7 @@
   "BNE": "Brisbane, Australia",
   "BNU": "Blumenau, Brazil",
   "BOD": "Bordeaux, France",
-  "BOG": "Bogotá, Colombia",
+  "BOG": "Bogota, Colombia",
   "BOM": "Mumbai, India",
   "BOS": "Boston, United States",
   "BRU": "Brussels, Belgium",
@@ -276,7 +276,7 @@
   "SJO": "San José, Costa Rica",
   "SJP": "São José do Rio Preto, Brazil",
   "SJU": "San Juan, Puerto Rico",
-  "SJW": "Hengshui, China",
+  "SJW": "Shijiazhuang, China",
   "SKG": "Thessaloniki, Greece",
   "SKP": "Skopje, North Macedonia",
   "SLC": "Salt Lake City, United States",
@@ -336,5 +336,5 @@
   "ZAG": "Zagreb, Croatia",
   "ZDM": "Ramallah",
   "ZGN": "Zhongshan, China",
-  "ZRH": "Zürich, Switzerland"
+  "ZRH": "Zurich, Switzerland"
 }
