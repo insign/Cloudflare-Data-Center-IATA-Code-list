@@ -40,7 +40,7 @@
   "Bratislava, Slovakia": "斯洛伐克布拉迪斯拉发",
   "Brussels, Belgium": "比利时布鲁塞尔",
   "Calgary, Canada": "加拿大卡尔加里",
-  "Bogotá, Colombia": "哥伦比亚波哥大",
+  "Bogota, Colombia": "哥伦比亚波哥大",
   "Dakar, Senegal": "塞内加尔达喀尔",
   "Dammam, Saudi Arabia": "沙特阿拉伯达曼",
   "Melbourne, Australia": "澳大利亚墨尔本",
@@ -268,7 +268,7 @@
   "Phnom Penh, Cambodia": "柬埔寨金边",
   "Austin, United States": "美国奥斯汀",
   "Santiago de los Caballeros, Dominican Republic": "多米尼加共和国圣地亚哥德洛斯卡巴耶罗斯",
-  "Zürich, Switzerland": "瑞士苏黎世",
+  "Zurich, Switzerland": "瑞士苏黎世",
   "Qingdao, China": "中国青岛",
   "Albuquerque, United States": "美国阿尔伯克基",
   "La Paz, Bolivia": "玻利维亚拉巴斯",
@@ -343,5 +343,7 @@
   "Tongren, China": "中国铜仁",
   "Lusaka, Zambia": "赞比亚卢萨卡",
   "San Pedro Sula, Honduras": "洪都拉斯圣佩德罗苏拉",
+  "Shijiazhuang, China": "中国石家庄",
+  "Addis Ababa, Ethiopia": "埃塞俄比亚亚的斯亚贝巴",
   "LOCAL": "本地网络"
 }
