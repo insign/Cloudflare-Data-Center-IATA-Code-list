@@ -21,16 +21,12 @@ Cloudflare's Comprehensive Data Center and IATA Code List
 
 ### 完整地理位置数据 (Full Data with Geolocation)
 
-包含每个数据中心的经纬度信息。格式为对象数组：`[{ "slug": "IATA代码", "place": "位置", "lat": 纬度, "lng": 经度 }]`
+包含每个数据中心的中英文位置、经纬度信息。格式为键值对：`{ "IATA代码": { "en": "英文位置", "zh": "中文位置", "lat": 纬度, "lng": 经度 } }`
 
-Contains latitude and longitude for each data center. The format is an array of objects: `[{ "slug": "IATA Code", "place": "Location", "lat": Latitude, "lng": Longitude }]`
+Contains the location in both English and Chinese, along with latitude and longitude for each data center. The format is a key-value object: `{ "IATA Code": { "en": "English Location", "zh": "Chinese Location", "lat": Latitude, "lng": Longitude } }`
 
-- 中文 Chinese
-  - GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full-zh.json`
-  - Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full-zh.json`
-- 英文 English
-  - GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json`
-  - Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`
+- GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json`
+- Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`
 
 ## API
 
