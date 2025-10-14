@@ -18,8 +18,9 @@ def get_lat_lng(place, retries=3, delay=2):
         return 0.0, 0.0
 
     try:
-        location = geolocator.geocode(place)
-        time.sleep(1)  # Respect the 1-second rate limit of Nominatim
+        # Use a delay to respect API rate limits
+        time.sleep(1)
+        location = geolocator.geocode(place, timeout=10)
         if location:
             return location.latitude, location.longitude
         else:
@@ -40,92 +41,51 @@ def get_lat_lng(place, retries=3, delay=2):
         print(f"An unexpected error occurred for '{place}': {e}. Using Antarctica fallback.")
         return ANTARCTICA_COORDS
 
-def process_iata_file_en(input_path, output_path):
+def generate_combined_full_data(en_path, zh_path, output_path):
     """
-    Reads the English IATA JSON file, enriches it with latitude and longitude,
-    and writes the result to a new file.
+    Reads English and Chinese IATA files, enriches them with latitude and longitude,
+    and writes a combined result to a new file.
     """
-    if not os.path.exists(input_path):
-        print(f"Error: Input file not found at {input_path}")
+    if not os.path.exists(en_path) or not os.path.exists(zh_path):
+        print("Error: Input files (en or zh) not found.")
         return
 
-    with open(input_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    with open(en_path, 'r', encoding='utf-8') as f:
+        data_en = json.load(f)
 
-    full_data = []
-    for slug, place in data.items():
-        print(f"Processing: {slug} - {place}")
-        lat, lng = get_lat_lng(place)
+    with open(zh_path, 'r', encoding='utf-8') as f:
+        data_zh = json.load(f)
 
-        full_data.append({
-            "slug": slug,
-            "place": place,
+    full_data = {}
+    # Sort by IATA code for consistent processing and output order
+    sorted_slugs = sorted(data_en.keys())
+
+    for slug in sorted_slugs:
+        place_en = data_en[slug]
+        # Fallback to English name if no translation exists
+        place_zh = data_zh.get(slug, place_en)
+
+        print(f"Processing: {slug} - {place_en}")
+        lat, lng = get_lat_lng(place_en)
+
+        full_data[slug] = {
+            "en": place_en,
+            "zh": place_zh,
             "lat": lat,
             "lng": lng
-        })
-
-    full_data.sort(key=lambda x: x['slug'])
+        }
 
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(full_data, f, ensure_ascii=False, indent=2)
 
     print(f"Successfully generated {output_path} with {len(full_data)} entries.")
 
-def generate_zh_full_data_from_en(en_full_path, zh_path, output_path_zh):
-    """
-    Generates the Chinese full data file by merging coordinates from the English
-    full data file with place names from the Chinese IATA file.
-    """
-    if not all(os.path.exists(p) for p in [en_full_path, zh_path]):
-        print(f"Error: One or more input files are missing.")
-        return
-
-    with open(en_full_path, 'r', encoding='utf-8') as f:
-        en_data = json.load(f)
-
-    with open(zh_path, 'r', encoding='utf-8') as f:
-        zh_data = json.load(f)
-
-    # Create a lookup dictionary for geo data from the English file for efficiency
-    geo_data_map = {item['slug']: {'lat': item['lat'], 'lng': item['lng']} for item in en_data}
-
-    full_data_zh = []
-    for slug, place_zh in zh_data.items():
-        geo_coords = geo_data_map.get(slug)
-        if geo_coords:
-            full_data_zh.append({
-                "slug": slug,
-                "place": place_zh,
-                "lat": geo_coords['lat'],
-                "lng": geo_coords['lng']
-            })
-        else:
-            print(f"Warning: Slug '{slug}' found in Chinese file but not in English geo data. Using Antarctica fallback.")
-            full_data_zh.append({
-                "slug": slug,
-                "place": place_zh,
-                "lat": ANTARCTICA_COORDS[0],
-                "lng": ANTARCTICA_COORDS[1]
-            })
-
-    full_data_zh.sort(key=lambda x: x['slug'])
-
-    with open(output_path_zh, 'w', encoding='utf-8') as f:
-        json.dump(full_data_zh, f, ensure_ascii=False, indent=2)
-
-    print(f"Successfully generated {output_path_zh} with {len(full_data_zh)} entries based on existing geo data.")
-
 
 if __name__ == "__main__":
     en_input = 'cloudflare-iata.json'
-    en_output_full = 'cloudflare-iata-full.json'
     zh_input = 'cloudflare-iata-zh.json'
-    zh_output_full = 'cloudflare-iata-full-zh.json'
+    # The single new output file
+    output_full = 'cloudflare-iata-full.json'
 
-    # Step 1: Process the English file to get geo coordinates
-    print("--- Starting Geocoding for English File ---")
-    process_iata_file_en(en_input, en_output_full)
-
-    # Step 2: Generate the Chinese full data file using the results from Step 1
-    print("\n--- Generating Chinese File from English Geo Data ---")
-    generate_zh_full_data_from_en(en_output_full, zh_input, zh_output_full)
+    print("--- Starting Geocoding for Combined Full Data File ---")
+    generate_combined_full_data(en_input, zh_input, output_full)

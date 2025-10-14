@@ -39,7 +39,7 @@ jobs:
           CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
           echo "Current branch: $CURRENT_BRANCH"
 
-          git add ./cloudflare-iata-full*.json
+          git add ./cloudflare-iata-full.json
 
           # Check if there are changes to commit
           if git diff --cached --quiet; then
