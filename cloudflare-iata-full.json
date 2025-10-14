@@ -338,8 +338,8 @@
   {
     "slug": "CDG",
     "place": "Paris, France",
-    "lat": 48.8534951,
-    "lng": 2.3483915
+    "lat": 48.8588897,
+    "lng": 2.320041
   },
   {
     "slug": "CEB",
@@ -1130,8 +1130,8 @@
   {
     "slug": "LIM",
     "place": "Lima, Peru",
-    "lat": null,
-    "lng": null
+    "lat": -12.0459808,
+    "lng": -77.0305912
   },
   {
     "slug": "LIS",
@@ -1334,8 +1334,8 @@
   {
     "slug": "NBO",
     "place": "Nairobi, Kenya",
-    "lat": -1.2890006,
-    "lng": 36.8172812
+    "lat": -1.3026148,
+    "lng": 36.828842
   },
   {
     "slug": "NJF",
@@ -1364,8 +1364,8 @@
   {
     "slug": "NQZ",
     "place": "Astana, Kazakhstan",
-    "lat": 51.1282205,
-    "lng": 71.4306682
+    "lat": 51.1159933,
+    "lng": 71.4677059
   },
   {
     "slug": "NRT",
@@ -1532,8 +1532,8 @@
   {
     "slug": "PRG",
     "place": "Prague, Czech Republic",
-    "lat": 50.0874654,
-    "lng": 14.4212535
+    "lat": 50.0596288,
+    "lng": 14.4464593
   },
   {
     "slug": "PTY",
@@ -1934,8 +1934,8 @@
   {
     "slug": "WAW",
     "place": "Warsaw, Poland",
-    "lat": 52.2319581,
-    "lng": 21.0067249
+    "lat": 52.2333742,
+    "lng": 21.0711489
   },
   {
     "slug": "WDH",

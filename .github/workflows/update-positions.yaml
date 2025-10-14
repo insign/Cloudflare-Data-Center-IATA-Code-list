@@ -1,11 +1,17 @@
 name: Update Node Positions
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Node Info"]
+    types:
+      - completed
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.name == 'Cloudflare-Data-Center-IATA-Code-list'
+    if: |
+      github.event.repository.name == 'Cloudflare-Data-Center-IATA-Code-list' &&
+      (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success')
 
     steps:
       - uses: actions/checkout@v4
