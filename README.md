@@ -23,9 +23,9 @@ Only includes IATA codes and their corresponding location names. The format is a
 
 ### 完整地理位置数据 Full Data with Geolocation
 
-包含每个数据中心的中英文位置名称、经纬度信息。格式为键值对：`{ "IATA 代码": { "place_en": "英文位置", "place_zh": "中文位置", "lat": 纬度, "lng": 经度 } }`
+包含每个数据中心的中英文位置名称、经纬度信息。格式为键值对：`{ "IATA 代码": { "place": "英文位置", "place_zh": "中文位置", "lat": 纬度, "lng": 经度 } }`
 
-Contains the location in both English and Chinese, along with latitude and longitude for each data center. The format is a key-value object: `{ "IATA Code": { "place_en": "English Location", "place_zh": "Chinese Location", "lat": Latitude, "lng": Longitude } }`
+Contains the location in both English and Chinese, along with latitude and longitude for each data center. The format is a key-value object: `{ "IATA Code": { "place": "English Location", "place_zh": "Chinese Location", "lat": Latitude, "lng": Longitude } }`
 
 - GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json`
 - Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`
