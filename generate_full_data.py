@@ -69,7 +69,7 @@ def generate_combined_full_data(en_path, zh_path, output_path):
         print(f"Processing: {slug} - {place_en}")
         lat, lng = get_lat_lng(slug)
 
-        full_data[slug] = {"en": place_en, "zh": place_zh, "lat": lat, "lng": lng}
+        full_data[slug] = {"place_en": place_en, "place_zh": place_zh, "lat": lat, "lng": lng}
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=2)
