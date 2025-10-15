@@ -13,11 +13,16 @@ def load_cloudflare_locations():
         response.raise_for_status()
         data = response.json()
         return {
-            entry.get("iata"): (entry.get("lat"), entry.get("lon"))
+            entry.get("iata"): {
+                "lat": entry.get("lat"),
+                "lng": entry.get("lon"),
+                "cca2": entry.get("cca2"),
+            }
             for entry in data
             if entry.get("iata")
             and entry.get("lat") is not None
             and entry.get("lon") is not None
+            and entry.get("cca2")
         }
     except Exception as e:
         print(f"Error: Failed to load Cloudflare locations: {e}")
@@ -27,19 +32,19 @@ def load_cloudflare_locations():
 CLOUDFLARE_LOCATIONS = load_cloudflare_locations()
 
 
-def get_lat_lng(iata_code):
+def get_location_details(iata_code):
     """
-    Look up latitude and longitude for an IATA code using Cloudflare data.
+    Look up latitude, longitude, and country code for an IATA code using Cloudflare data.
     """
     if iata_code == "LOCAL":
-        return None, None
+        return None, None, None
 
-    coords = CLOUDFLARE_LOCATIONS.get(iata_code.upper())
-    if coords:
-        return coords
+    location = CLOUDFLARE_LOCATIONS.get(iata_code.upper())
+    if location:
+        return location["lat"], location["lng"], location["cca2"]
 
     print(f"Warning: Could not find coordinates for '{iata_code}'.")
-    return None, None
+    return None, None, None
 
 
 def generate_combined_full_data(en_path, zh_path, output_path):
@@ -67,9 +72,15 @@ def generate_combined_full_data(en_path, zh_path, output_path):
         place_zh = data_zh.get(slug, place_en)
 
         print(f"Processing: {slug} - {place_en}")
-        lat, lng = get_lat_lng(slug)
+        lat, lng, cca2 = get_location_details(slug)
 
-        full_data[slug] = {"place": place_en, "place_zh": place_zh, "lat": lat, "lng": lng}
+        full_data[slug] = {
+            "place": place_en,
+            "place_zh": place_zh,
+            "lat": lat,
+            "lng": lng,
+            "cca2": cca2,
+        }
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=2)
