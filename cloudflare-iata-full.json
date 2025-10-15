@@ -177,9 +177,9 @@
   "BBI": {
     "place": "Bhubaneswar, India",
     "place_zh": "印度布巴内斯瓦尔",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 20.2444,
+    "lng": 85.817802,
+    "cca2": "IN"
   },
   "BCN": {
     "place": "Barcelona, Spain",
@@ -233,9 +233,9 @@
   "BHY": {
     "place": "Beihai, China",
     "place_zh": "中国北海",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 21.5394,
+    "lng": 109.293999,
+    "cca2": "CN"
   },
   "BKK": {
     "place": "Bangkok, Thailand",
@@ -359,9 +359,9 @@
   "CAN": {
     "place": "Guangzhou, China",
     "place_zh": "中国广州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 23.392401,
+    "lng": 113.299004,
+    "cca2": "CN"
   },
   "CAW": {
     "place": "Campos dos Goytacazes, Brazil",
@@ -422,9 +422,9 @@
   "CGD": {
     "place": "Changde, China",
     "place_zh": "中国常德",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 28.9189,
+    "lng": 111.639999,
+    "cca2": "CN"
   },
   "CGK": {
     "place": "Jakarta, Indonesia",
@@ -436,9 +436,9 @@
   "CGO": {
     "place": "Zhengzhou, China",
     "place_zh": "中国郑州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 34.526497,
+    "lng": 113.849165,
+    "cca2": "CN"
   },
   "CGP": {
     "place": "Chittagong, Bangladesh",
@@ -464,9 +464,9 @@
   "CKG": {
     "place": "Chongqing, China",
     "place_zh": "中国重庆",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 29.712254,
+    "lng": 106.651895,
+    "cca2": "CN"
   },
   "CLE": {
     "place": "Cleveland, United States",
@@ -562,16 +562,16 @@
   "CSX": {
     "place": "Changsha, China",
     "place_zh": "中国长沙",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 28.189199,
+    "lng": 113.220001,
+    "cca2": "CN"
   },
   "CTU": {
     "place": "Chengdu, China",
     "place_zh": "中国成都",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 30.558257,
+    "lng": 103.945966,
+    "cca2": "CN"
   },
   "CWB": {
     "place": "Curitiba, Brazil",
@@ -590,9 +590,9 @@
   "CZX": {
     "place": "Changzhou, China",
     "place_zh": "中国常州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 31.920485,
+    "lng": 119.77546,
+    "cca2": "CN"
   },
   "DAC": {
     "place": "Dhaka, Bangladesh",
@@ -646,9 +646,9 @@
   "DLC": {
     "place": "Dalian, China",
     "place_zh": "中国大连",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 38.965719,
+    "lng": 121.538477,
+    "cca2": "CN"
   },
   "DME": {
     "place": "Moscow, Russia",
@@ -779,9 +779,9 @@
   "FOC": {
     "place": "Fuzhou, China",
     "place_zh": "中国福州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 25.934669,
+    "lng": 119.66318,
+    "cca2": "CN"
   },
   "FOR": {
     "place": "Fortaleza, Brazil",
@@ -821,9 +821,9 @@
   "FUO": {
     "place": "Foshan, China",
     "place_zh": "中国佛山",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 23.0825,
+    "lng": 113.070833,
+    "cca2": "CN"
   },
   "GBE": {
     "place": "Gaborone, Botswana",
@@ -919,9 +919,9 @@
   "HAK": {
     "place": "Chengmai, China",
     "place_zh": "中国澄迈",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 19.9349,
+    "lng": 110.459,
+    "cca2": "CN"
   },
   "HAM": {
     "place": "Hamburg, Germany",
@@ -961,16 +961,16 @@
   "HFE": {
     "place": "Huainan, China",
     "place_zh": "中国淮南",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 31.98779,
+    "lng": 116.9769,
+    "cca2": "CN"
   },
   "HGH": {
     "place": "Shaoxing, China",
     "place_zh": "中国绍兴",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 30.23609,
+    "lng": 120.428865,
+    "cca2": "CN"
   },
   "HKG": {
     "place": "Hong Kong",
@@ -1003,9 +1003,9 @@
   "HYN": {
     "place": "Taizhou, China",
     "place_zh": "中国台州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 28.562201,
+    "lng": 121.429001,
+    "cca2": "CN"
   },
   "IAD": {
     "place": "Ashburn, United States",
@@ -1129,9 +1129,9 @@
   "JSR": {
     "place": "Jashore, Bangladesh",
     "place_zh": "孟加拉国杰索尔",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 23.1838,
+    "lng": 89.160797,
+    "cca2": "BD"
   },
   "JXG": {
     "place": "Jiaxing, China",
@@ -1185,9 +1185,9 @@
   "KHN": {
     "place": "Nanchang, China",
     "place_zh": "中国南昌",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 28.864815,
+    "lng": 115.90271,
+    "cca2": "CN"
   },
   "KIN": {
     "place": "Kingston, Jamaica",
@@ -1220,9 +1220,9 @@
   "KMG": {
     "place": "Kunming, China",
     "place_zh": "中国昆明",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 25.110313,
+    "lng": 102.936743,
+    "cca2": "CN"
   },
   "KNU": {
     "place": "Kanpur, India",
@@ -1248,9 +1248,9 @@
   "KWE": {
     "place": "Guiyang, China",
     "place_zh": "中国贵阳",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 26.541466,
+    "lng": 106.803331,
+    "cca2": "CN"
   },
   "KWI": {
     "place": "Kuwait City, Kuwait",
@@ -1297,9 +1297,9 @@
   "LHE": {
     "place": "Lahore, Pakistan",
     "place_zh": "巴基斯坦拉合尔",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 31.521601,
+    "lng": 74.403603,
+    "cca2": "PK"
   },
   "LHR": {
     "place": "London, United Kingdom",
@@ -1311,9 +1311,9 @@
   "LHW": {
     "place": "Lanzhou, China",
     "place_zh": "中国兰州",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 36.515202,
+    "lng": 103.620003,
+    "cca2": "CN"
   },
   "LIM": {
     "place": "Lima, Peru",
@@ -1465,9 +1465,9 @@
   "MFE": {
     "place": "McAllen, United States",
     "place_zh": "美国麦卡伦",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 26.176141,
+    "lng": -98.237965,
+    "cca2": "US"
   },
   "MFM": {
     "place": "Macau",
@@ -1570,9 +1570,9 @@
   "NNG": {
     "place": "Nanning, China",
     "place_zh": "中国南宁",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 22.608544,
+    "lng": 108.175335,
+    "cca2": "CN"
   },
   "NOU": {
     "place": "Noumea, New Caledonia",
@@ -1738,9 +1738,9 @@
   "PKX": {
     "place": "Langfang, China",
     "place_zh": "中国廊坊",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 39.509945,
+    "lng": 116.41092,
+    "cca2": "CN"
   },
   "PMO": {
     "place": "Palermo, Italy",
@@ -1920,9 +1920,9 @@
   "SHA": {
     "place": "Shanghai, China",
     "place_zh": "中国上海",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 31.198104,
+    "lng": 121.33426,
+    "cca2": "CN"
   },
   "SIN": {
     "place": "Singapore",
@@ -1969,9 +1969,9 @@
   "SJW": {
     "place": "Shijiazhuang, China",
     "place_zh": "中国石家庄",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 38.280701,
+    "lng": 114.696999,
+    "cca2": "CN"
   },
   "SKG": {
     "place": "Thessaloniki, Greece",
@@ -2053,9 +2053,9 @@
   "SVX": {
     "place": "Yekaterinburg, Russia",
     "place_zh": "俄罗斯叶卡捷琳堡",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 56.743099212646,
+    "lng": 60.802700042725,
+    "cca2": "RU"
   },
   "SYD": {
     "place": "Sydney, Australia",
@@ -2067,23 +2067,23 @@
   "SZX": {
     "place": "Shenzhen, China",
     "place_zh": "中国深圳",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 22.639299,
+    "lng": 113.810997,
+    "cca2": "CN"
   },
   "TAO": {
     "place": "Qingdao, China",
     "place_zh": "中国青岛",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 36.361953,
+    "lng": 120.088171,
+    "cca2": "CN"
   },
   "TAS": {
     "place": "Tashkent, Uzbekistan",
     "place_zh": "乌兹别克斯坦塔什干",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 41.2579,
+    "lng": 69.281197,
+    "cca2": "UZ"
   },
   "TBS": {
     "place": "Tbilisi, Georgia",
@@ -2095,9 +2095,9 @@
   "TEN": {
     "place": "Tongren, China",
     "place_zh": "中国铜仁",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 27.883333,
+    "lng": 109.308889,
+    "cca2": "CN"
   },
   "TGU": {
     "place": "Tegucigalpa, Honduras",
@@ -2137,9 +2137,9 @@
   "TNA": {
     "place": "Zibo, China",
     "place_zh": "中国淄博",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 36.857201,
+    "lng": 117.216003,
+    "cca2": "CN"
   },
   "TNR": {
     "place": "Antananarivo, Madagascar",
@@ -2165,9 +2165,9 @@
   "TSN": {
     "place": "Tianjin, China",
     "place_zh": "中国天津",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 39.124401092499994,
+    "lng": 117.346000671,
+    "cca2": "CN"
   },
   "TUN": {
     "place": "Tunis, Tunisia",
@@ -2186,9 +2186,9 @@
   "TYN": {
     "place": "Yangquan, China",
     "place_zh": "中国阳泉",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 37.746899,
+    "lng": 112.627998,
+    "cca2": "CN"
   },
   "UDI": {
     "place": "Uberlandia, Brazil",
@@ -2270,9 +2270,9 @@
   "WHU": {
     "place": "Wuhu, China",
     "place_zh": "中国芜湖",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 31.3906,
+    "lng": 118.408997,
+    "cca2": "CN"
   },
   "XAP": {
     "place": "Chapeco, Brazil",
@@ -2284,16 +2284,16 @@
   "XFN": {
     "place": "Xiangyang, China",
     "place_zh": "中国襄阳",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 32.152222,
+    "lng": 112.291666,
+    "cca2": "CN"
   },
   "XIY": {
     "place": "Baoji, China",
     "place_zh": "中国宝鸡",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 34.447102,
+    "lng": 108.751999,
+    "cca2": "CN"
   },
   "XNH": {
     "place": "Nasiriyah, Iraq",
@@ -2305,9 +2305,9 @@
   "XNN": {
     "place": "Xining, China",
     "place_zh": "中国西宁",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 36.530093,
+    "lng": 102.040062,
+    "cca2": "CN"
   },
   "YHZ": {
     "place": "Halifax, Canada",
@@ -2382,9 +2382,9 @@
   "ZGN": {
     "place": "Zhongshan, China",
     "place_zh": "中国中山",
-    "lat": null,
-    "lng": null,
-    "cca2": null
+    "lat": 22.519296,
+    "lng": 113.361307,
+    "cca2": "CN"
   },
   "ZRH": {
     "place": "Zurich, Switzerland",

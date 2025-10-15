@@ -1,9 +1,11 @@
+import csv
 import json
 import os
 import requests
 
 # Cloudflare location endpoint used for coordinates lookup
 CLOUDFLARE_LOCATIONS_URL = "https://speed.cloudflare.com/locations"
+OURAIRPORTS_AIRPORTS_URL = "https://davidmegginson.github.io/ourairports-data/airports.csv"
 
 
 # Cache for Cloudflare locations keyed by IATA code
@@ -30,6 +32,48 @@ def load_cloudflare_locations():
 
 
 CLOUDFLARE_LOCATIONS = load_cloudflare_locations()
+OURAIRPORTS_LOCATIONS = None
+
+
+def load_ourairports_locations():
+    """Lazy-load OurAirports data for fallback lookups."""
+    global OURAIRPORTS_LOCATIONS
+    if OURAIRPORTS_LOCATIONS is not None:
+        return OURAIRPORTS_LOCATIONS
+
+    try:
+        response = requests.get(OURAIRPORTS_AIRPORTS_URL, timeout=10)
+        response.raise_for_status()
+
+        # Parse CSV in-memory to build an IATA keyed lookup table
+        decoded_content = response.text.splitlines()
+        reader = csv.DictReader(decoded_content)
+
+        airports = {}
+        for row in reader:
+            iata = (row.get("iata_code") or "").strip().upper()
+            lat = row.get("latitude_deg")
+            lon = row.get("longitude_deg")
+            cca2 = (row.get("iso_country") or "").strip().upper() or None
+
+            if not iata or not lat or not lon:
+                continue
+
+            try:
+                airports[iata] = {
+                    "lat": float(lat),
+                    "lng": float(lon),
+                    "cca2": cca2,
+                }
+            except ValueError:
+                continue
+
+        OURAIRPORTS_LOCATIONS = airports
+        return OURAIRPORTS_LOCATIONS
+    except Exception as e:
+        print(f"Error: Failed to load OurAirports data: {e}")
+        OURAIRPORTS_LOCATIONS = {}
+        return OURAIRPORTS_LOCATIONS
 
 
 def get_location_details(iata_code):
@@ -42,6 +86,11 @@ def get_location_details(iata_code):
     location = CLOUDFLARE_LOCATIONS.get(iata_code.upper())
     if location:
         return location["lat"], location["lng"], location["cca2"]
+
+    airports_locations = load_ourairports_locations()
+    fallback_location = airports_locations.get(iata_code.upper())
+    if fallback_location:
+        return fallback_location["lat"], fallback_location["lng"], fallback_location["cca2"]
 
     print(f"Warning: Could not find coordinates for '{iata_code}'.")
     return None, None, None
