@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate Full Data with Geo Positions
         run: |
-          python generate_full_data.py
+          python generateFullData.py
 
       - name: Commit and Push
         run: |

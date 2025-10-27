@@ -1,14 +1,19 @@
 import json
 import os
 import requests
+import shutil
 
 
 def generate_files(json_path, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
     with open(json_path, "r", encoding="utf-8") as json_file:
         data = json.load(json_file)
         for code, value in data.items():
             file_path = os.path.join(output_dir, code)
-            os.makedirs(output_dir, exist_ok=True)
+            if isinstance(value, dict):
+                value = json.dumps(
+                    value, ensure_ascii=False, indent=None, separators=None
+                )
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(value)
 
@@ -24,6 +29,11 @@ def write_headers_file(output_dir):
   Access-Control-Expose-Headers: *
   Cache-Control: public, max-age=86400
   Content-Type: text/plain; charset=UTF-8
+/full/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: *
+  Cache-Control: public, max-age=86400
+  Content-Type: application/json; charset=UTF-8
 """
     headers_file_path = os.path.join(output_dir, "_headers")
     with open(headers_file_path, "w", encoding="utf-8") as f:
@@ -76,6 +86,14 @@ def convert_readme_to_html(readme_path, output_path, github_token=None):
 
 generate_files("cloudflare-iata.json", os.path.join("dist", "en"))
 generate_files("cloudflare-iata-zh.json", os.path.join("dist", "zh"))
+generate_files("cloudflare-iata-full.json", os.path.join("dist", "full"))
 write_headers_file(os.path.join("dist"))
 github_token = os.environ.get("GITHUB_TOKEN")
 convert_readme_to_html("README.md", os.path.join("dist", "index.html"), github_token)
+
+for filename in [
+    "cloudflare-iata.json",
+    "cloudflare-iata-zh.json",
+    "cloudflare-iata-full.json",
+]:
+    shutil.copy(filename, os.path.join("dist", filename))
