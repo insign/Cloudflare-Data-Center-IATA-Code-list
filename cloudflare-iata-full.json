@@ -730,8 +730,8 @@
   "EDI": {
     "place": "Edinburgh, United Kingdom",
     "place_zh": "英国爱丁堡",
-    "lat": 55.9500007629,
-    "lng": -3.3724999428,
+    "lat": 55.950145,
+    "lng": -3.372288,
     "cca2": "GB"
   },
   "EVN": {
@@ -1647,8 +1647,8 @@
   "ORK": {
     "place": "Cork, Ireland",
     "place_zh": "爱尔兰科克",
-    "lat": 51.8413009644,
-    "lng": -8.491109848,
+    "lat": 51.841301,
+    "lng": -8.49111,
     "cca2": "IE"
   },
   "ORN": {
