@@ -10,28 +10,28 @@ Cloudflare's Comprehensive Data Center and IATA Code List
 
 ### 基础数据 Basic Data
 
-仅包含 IATA 代码和对应的位置名称。格式为键值对：`{ "IATA 代码": "位置名称" }`
+仅包含 IATA 代码和对应的位置名称。格式为 JSON 字典：`{ "IATA 代码": "位置名称" }`
 
-Only includes IATA codes and their corresponding location names. The format is a key-value object: `{ "IATA Code": "Location Name" }`
+Only includes IATA codes and their corresponding location names. The format is JSON dict: `{ "IATA Code": "Location Name" }`
 
 - 中文 Chinese
-  - GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-zh.json`
-  - Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-zh.json`
-  - Cloudflare Pages CDN: `https://iata.isteed.cc/cloudflare-iata-zh.json`
+  - GitHub Raw: [`https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-zh.json`](https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-zh.json)
+  - Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-zh.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-zh.json)
+  - Cloudflare Pages CDN: [`https://iata.isteed.cc/cloudflare-iata-zh.json`](https://iata.isteed.cc/cloudflare-iata-zh.json)
 - 英文 English
-  - GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata.json`
-  - Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata.json`
-  - Cloudflare Pages: `https://iata.isteed.cc/cloudflare-iata.json`
+  - GitHub Raw: [`https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata.json`](https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata.json)
+  - Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata.json)
+  - Cloudflare Pages: [`https://iata.isteed.cc/cloudflare-iata.json`](https://iata.isteed.cc/cloudflare-iata.json)
 
-### 完整地理位置数据 Full Data with Geolocation
+### 完整数据 Full Data
 
 包含每个数据中心的中英文位置名称、经纬度信息。格式为 JSON 字典：`{ "IATA 代码": { "place": "英文位置", "place_zh": "中文位置", "lat": 纬度, "lng": 经度 } }`
 
 Contains the location in both English and Chinese, along with latitude and longitude for each data center. The format is JSON dict: `{ "IATA Code": { "place": "English Location", "place_zh": "Chinese Location", "lat": Latitude, "lng": Longitude } }`
 
-- GitHub Raw: `https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json`
-- Jsdelivr CDN: `https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`
-- Cloudflare Pages: `https://iata.isteed.cc/cloudflare-iata-full.json`
+- GitHub Raw: [`https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json`](https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/cloudflare-iata-full.json)
+- Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json)
+- Cloudflare Pages: [`https://iata.isteed.cc/cloudflare-iata-full.json`](https://iata.isteed.cc/cloudflare-iata-full.json)
 
 ## API
 
@@ -43,12 +43,12 @@ Contains the location in both English and Chinese, along with latitude and longi
 
 示例 Example:
 
-- `https://iata.isteed.cc/zh/LAX`
-  返回值 Return Value: `美国洛杉矶`
-- `https://iata.isteed.cc/en/LAX`
-  返回值 Return Value: `Los Angeles, United States`
-- `https://iata.isteed.cc/full/LAX`
-  返回值 Return Value: `{"place": "Los Angeles, United States", "place_zh": "美国洛杉矶", "lat": 33.94250107, "lng": -118.4079971, "cca2": "US"}`
+- [`https://iata.isteed.cc/zh/LAX`](https://iata.isteed.cc/zh/LAX)
+  - 返回值 Return Value: `美国洛杉矶`
+- [`https://iata.isteed.cc/en/LAX`](https://iata.isteed.cc/en/LAX)
+  - 返回值 Return Value: `Los Angeles, United States`
+- [`https://iata.isteed.cc/full/LAX`](https://iata.isteed.cc/full/LAX)
+  - 返回值 Return Value: `{"place": "Los Angeles, United States", "place_zh": "美国洛杉矶", "lat": 33.94250107, "lng": -118.4079971, "cca2": "US"}`
 
 ## 其它 Others
 
