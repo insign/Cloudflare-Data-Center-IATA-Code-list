@@ -31,6 +31,10 @@ jobs:
         run: |
           python makeData4zh.py
 
+      - name: Generate Full Data with Geo Positions
+        run: |
+          python generate_full_data.py
+
       - name: Commit and Push
         run: |
           git config user.name 'github-actions[bot]'
