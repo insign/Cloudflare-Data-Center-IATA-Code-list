@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'LufsX/Cloudflare-Data-Center-IATA-Code-list'
+    if: github.event.repository.name == 'Cloudflare-Data-Center-IATA-Code-list'
 
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +30,10 @@ jobs:
       - name: Update Translations
         run: |
           python makeData4zh.py
+
+      - name: Generate Full Data with Geo Positions
+        run: |
+          python generate_full_data.py
 
       - name: Commit and Push
         run: |

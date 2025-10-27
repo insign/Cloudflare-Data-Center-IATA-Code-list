@@ -1,3 +1,7 @@
 dist
 temp*
 test*
+.idea
+
+# From https://github.com/insign/together
+output.txt
