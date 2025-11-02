@@ -5,7 +5,9 @@ import requests
 
 # Cloudflare location endpoint used for coordinates lookup
 CLOUDFLARE_LOCATIONS_URL = "https://speed.cloudflare.com/locations"
-OURAIRPORTS_AIRPORTS_URL = "https://davidmegginson.github.io/ourairports-data/airports.csv"
+OURAIRPORTS_AIRPORTS_URL = (
+    "https://davidmegginson.github.io/ourairports-data/airports.csv"
+)
 
 
 # Cache for Cloudflare locations keyed by IATA code
@@ -90,7 +92,11 @@ def get_location_details(iata_code):
     airports_locations = load_ourairports_locations()
     fallback_location = airports_locations.get(iata_code.upper())
     if fallback_location:
-        return fallback_location["lat"], fallback_location["lng"], fallback_location["cca2"]
+        return (
+            fallback_location["lat"],
+            fallback_location["lng"],
+            fallback_location["cca2"],
+        )
 
     print(f"Warning: Could not find coordinates for '{iata_code}'.")
     return None, None, None
@@ -120,7 +126,7 @@ def generate_combined_full_data(en_path, zh_path, output_path):
         # Fallback to English name if no translation exists
         place_zh = data_zh.get(slug, place_en)
 
-        print(f"Processing: {slug} - {place_en}")
+        # print(f"Processing: {slug} - {place_en}")
         lat, lng, cca2 = get_location_details(slug)
 
         full_data[slug] = {
