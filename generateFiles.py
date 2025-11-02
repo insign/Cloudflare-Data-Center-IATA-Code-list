@@ -1,7 +1,6 @@
 import json
 import os
 import requests
-import shutil
 
 
 def generate_files(json_path, output_dir):
@@ -11,9 +10,7 @@ def generate_files(json_path, output_dir):
         for code, value in data.items():
             file_path = os.path.join(output_dir, code)
             if isinstance(value, dict):
-                value = json.dumps(
-                    value, ensure_ascii=False, indent=None, separators=None
-                )
+                value = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(value)
 
@@ -76,9 +73,8 @@ def convert_readme_to_html(readme_path, output_path, github_token=None):
 .markdown-body {{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}}@media (max-width: 767px) {{.markdown-body {{padding: 15px;}}}}
 </style>
 </head>
-<body class="markdown-body">
-{html_content}
-</body></html>"""
+<body class="markdown-body">{html_content}</body>
+</html>"""
 
     with open(output_path, "w", encoding="utf-8") as html_file:
         html_file.write(full_html)
@@ -95,5 +91,11 @@ for filename in [
     "cloudflare-iata.json",
     "cloudflare-iata-zh.json",
     "cloudflare-iata-full.json",
+    "en2zh.json",
 ]:
-    shutil.copy(filename, os.path.join("dist", filename))
+    with open(filename, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    output_path = os.path.join("dist", filename)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))

@@ -33,6 +33,14 @@ Contains the location in both English and Chinese, along with latitude and longi
 - Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/cloudflare-iata-full.json)
 - Cloudflare Pages: [`https://iata.isteed.cc/cloudflare-iata-full.json`](https://iata.isteed.cc/cloudflare-iata-full.json)
 
+### 中英文对照表
+
+人工维护，英文地名翻译成对应格式的中文地名的对照表
+
+- GitHub Raw: [`https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/en2zh.json`](https://github.com/LufsX/Cloudflare-Data-Center-IATA-Code-list/raw/main/en2zh.json)
+- Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/en2zh.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/en2zh.json)
+- Cloudflare Pages: [`https://iata.isteed.cc/en2zh.json`](https://iata.isteed.cc/en2zh.json)
+
 ## API
 
 用法 Example Usage:
