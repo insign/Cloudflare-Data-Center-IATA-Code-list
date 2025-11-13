@@ -68,6 +68,7 @@ def convert_readme_to_html(readme_path, output_path, github_token=None):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cloudflare Data Center IATA Code List</title>
+<link rel="icon" href="https://cdn.isteed.cc/favicon_opt.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css" integrity="sha512-BrOPA520KmDMqieeM7XFe6a3u3Sb3F1JBaQnrIAmWg3EYrciJ+Qqe6ZcKCdfPv26rGcgTrJnZ/IdQEct8h3Zhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
 .markdown-body {{box-sizing: border-box;min-width: 200px;max-width: 980px;margin: 0 auto;padding: 45px;}}@media (max-width: 767px) {{.markdown-body {{padding: 15px;}}}}
