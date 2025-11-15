@@ -41,6 +41,37 @@ Contains the location in both English and Chinese, along with latitude and longi
 - Jsdelivr CDN: [`https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/en2zh.json`](https://cdn.jsdelivr.net/gh/LufsX/Cloudflare-Data-Center-IATA-Code-list/en2zh.json)
 - Cloudflare Pages: [`https://iata.isteed.cc/en2zh.json`](https://iata.isteed.cc/en2zh.json)
 
+## /cdn-cgi/trace
+
+可以通过在使用了 Cloudflare 的网站访问 `/cdn-cgi/trace`（例如 [`https://iata.isteed.cc/cdn-cgi/trace`](https://iata.isteed.cc/cdn-cgi/trace)） 来查看当前请求被路由到的 Cloudflare 数据中心的 IATA 代码，返回内容中的 `colo` 字段即为 IATA 代码。
+
+---
+
+You can check which Cloudflare data center your request is routed to by visiting `/cdn-cgi/trace` (e.g. [`https://iata.isteed.cc/cdn-cgi/trace`](https://iata.isteed.cc/cdn-cgi/trace)) on a website using Cloudflare. The `colo` field in the returned content represents the IATA code.
+
+---
+
+例如 Example:
+
+```
+fl=618f32
+h=iata.isteed.cc
+ip=114.51.41.191
+ts=1763212940.000
+visit_scheme=https
+uag=xh/0.25.0
+colo=LAX
+sliver=none
+http=http/2
+loc=CN
+tls=TLSv1.3
+sni=plaintext
+warp=off
+gateway=off
+rbi=off
+kex=X25514
+```
+
 ## API
 
 用法 Example Usage:
