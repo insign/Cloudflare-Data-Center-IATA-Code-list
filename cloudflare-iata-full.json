@@ -1059,8 +1059,8 @@
   "ITJ": {
     "place": "Itajai, Brazil",
     "place_zh": "巴西伊塔雅伊",
-    "lat": -27.6116676331,
-    "lng": -48.6727790833,
+    "lat": -26.983055,
+    "lng": -48.816387,
     "cca2": "BR"
   },
   "IXC": {
@@ -1489,6 +1489,13 @@
     "lat": 4.1748,
     "lng": 73.50888,
     "cca2": "MV"
+  },
+  "MLG": {
+    "place": "Malang, Indonesia",
+    "place_zh": "印度尼西亚玛琅",
+    "lat": -8.100347,
+    "lng": 112.186641,
+    "cca2": "ID"
   },
   "MNL": {
     "place": "Manila, Philippines",
