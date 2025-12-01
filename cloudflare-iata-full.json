@@ -1297,8 +1297,8 @@
   "LHE": {
     "place": "Lahore, Pakistan",
     "place_zh": "巴基斯坦拉合尔",
-    "lat": 31.521601,
-    "lng": 74.403603,
+    "lat": 31.5216007233,
+    "lng": 74.4036026001,
     "cca2": "PK"
   },
   "LHR": {
@@ -2280,6 +2280,13 @@
     "lat": 31.3906,
     "lng": 118.408997,
     "cca2": "CN"
+  },
+  "WRO": {
+    "place": "Wroclaw, Poland",
+    "place_zh": "波兰弗罗茨瓦夫",
+    "lat": 51.106742,
+    "lng": 16.983773,
+    "cca2": "PL"
   },
   "XAP": {
     "place": "Chapeco, Brazil",
