@@ -87,7 +87,7 @@ kex=X25514
 - [`https://iata.isteed.cc/en/LAX`](https://iata.isteed.cc/en/LAX)
   - 返回值 Return Value: `Los Angeles, United States`
 - [`https://iata.isteed.cc/full/LAX`](https://iata.isteed.cc/full/LAX)
-  - 返回值 Return Value: `{"place": "Los Angeles, United States", "place_zh": "美国洛杉矶", "lat": 33.94250107, "lng": -118.4079971, "cca2": "US"}`
+  - 返回值 Return Value: `{"place":"Los Angeles, United States","place_zh":"美国洛杉矶","lat":33.94250107,"lng":-118.4079971,"cca2":"US","region":"North America"}`
 
 ## 其它 Others
 
