@@ -55,6 +55,14 @@
     "cca2": "AU",
     "region": null
   },
+  "AGR": {
+    "place": "Agra, India",
+    "place_zh": "印度阿格拉",
+    "lat": 27.157683,
+    "lng": 77.960942,
+    "cca2": "IN",
+    "region": "Asia Pacific"
+  },
   "AKL": {
     "place": "Auckland, New Zealand",
     "place_zh": "新西兰奥克兰",
