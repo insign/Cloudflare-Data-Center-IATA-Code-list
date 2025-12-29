@@ -154,8 +154,8 @@
   "ASK": {
     "place": "Yamoussoukro, Ivory Coast",
     "place_zh": "科特迪瓦亚穆苏克罗",
-    "lat": 6.9031701088,
-    "lng": -5.36558008194,
+    "lat": 6.90317,
+    "lng": -5.36558,
     "cca2": "CI",
     "region": null
   },
@@ -534,6 +534,14 @@
     "lng": 172.532065,
     "cca2": "NZ",
     "region": null
+  },
+  "CJB": {
+    "place": "Coimbatore, India",
+    "place_zh": "印度哥印拜陀",
+    "lat": 11.029999733,
+    "lng": 77.0434036255,
+    "cca2": "IN",
+    "region": "Asia Pacific"
   },
   "CKG": {
     "place": "Chongqing, China",
@@ -1098,8 +1106,8 @@
   "HFA": {
     "place": "Haifa, Israel",
     "place_zh": "以色列海法",
-    "lat": 32.80939865112305,
-    "lng": 35.04309844970703,
+    "lat": 32.810219,
+    "lng": 35.043719,
     "cca2": "IL",
     "region": null
   },
