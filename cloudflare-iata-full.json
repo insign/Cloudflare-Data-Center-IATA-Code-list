@@ -2706,8 +2706,8 @@
   "YVR": {
     "place": "Vancouver, Canada",
     "place_zh": "加拿大温哥华",
-    "lat": 49.193901062,
-    "lng": -123.183998108,
+    "lat": 49.193901,
+    "lng": -123.183998,
     "cca2": "CA",
     "region": null
   },
