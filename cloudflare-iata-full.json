@@ -58,8 +58,8 @@
   "AGR": {
     "place": "Agra, India",
     "place_zh": "印度阿格拉",
-    "lat": 27.157683,
-    "lng": 77.960942,
+    "lat": 27.157975,
+    "lng": 77.961025,
     "cca2": "IN",
     "region": "Asia Pacific"
   },
@@ -74,8 +74,8 @@
   "AKX": {
     "place": "Aktobe, Kazakhstan",
     "place_zh": "哈萨克斯坦阿克托别",
-    "lat": 50.2458,
-    "lng": 57.206699,
+    "lat": 50.248116,
+    "lng": 57.204144,
     "cca2": "KZ",
     "region": null
   },
@@ -210,8 +210,8 @@
   "BBI": {
     "place": "Bhubaneswar, India",
     "place_zh": "印度布巴内斯瓦尔",
-    "lat": 20.2444,
-    "lng": 85.817802,
+    "lat": 20.251021,
+    "lng": 85.814747,
     "cca2": "IN",
     "region": "Asia Pacific"
   },
@@ -242,8 +242,8 @@
   "BEY": {
     "place": "Beirut, Lebanon",
     "place_zh": "黎巴嫩贝鲁特",
-    "lat": 33.820899963378906,
-    "lng": 35.488399505615234,
+    "lat": 33.819833,
+    "lng": 35.487443,
     "cca2": "LB",
     "region": null
   },
@@ -458,8 +458,8 @@
   "CDG": {
     "place": "Paris, France",
     "place_zh": "法国巴黎",
-    "lat": 49.012798,
-    "lng": 2.55,
+    "lat": 49.00896,
+    "lng": 2.554117,
     "cca2": "FR",
     "region": null
   },
@@ -538,8 +538,8 @@
   "CJB": {
     "place": "Coimbatore, India",
     "place_zh": "印度哥印拜陀",
-    "lat": 11.029999733,
-    "lng": 77.0434036255,
+    "lat": 11.03,
+    "lng": 77.043404,
     "cca2": "IN",
     "region": "Asia Pacific"
   },
@@ -562,8 +562,8 @@
   "CLO": {
     "place": "Cali, Colombia",
     "place_zh": "哥伦比亚卡利",
-    "lat": 3.54322,
-    "lng": -76.3816,
+    "lat": 3.542344,
+    "lng": -76.381775,
     "cca2": "CO",
     "region": null
   },
@@ -602,8 +602,8 @@
   "CNN": {
     "place": "Kannur, India",
     "place_zh": "印度坎努尔",
-    "lat": 11.918614,
-    "lng": 75.547211,
+    "lat": 11.916343,
+    "lng": 75.544979,
     "cca2": "IN",
     "region": "Asia Pacific"
   },
@@ -682,8 +682,8 @@
   "CZL": {
     "place": "Constantine, Algeria",
     "place_zh": "阿尔及利亚康斯坦丁",
-    "lat": 36.2760009765625,
-    "lng": 6.620389938354492,
+    "lat": 36.276001,
+    "lng": 6.62039,
     "cca2": "DZ",
     "region": null
   },
@@ -730,8 +730,8 @@
   "DEN": {
     "place": "Denver, United States",
     "place_zh": "美国丹佛",
-    "lat": 39.861698150635,
-    "lng": -104.672996521,
+    "lat": 39.860027,
+    "lng": -104.673792,
     "cca2": "US",
     "region": "North America"
   },
@@ -746,8 +746,8 @@
   "DKR": {
     "place": "Dakar, Senegal",
     "place_zh": "塞内加尔达喀尔",
-    "lat": 14.7397,
-    "lng": -17.4902,
+    "lat": 14.742337,
+    "lng": -17.479222,
     "cca2": "SN",
     "region": null
   },
@@ -770,8 +770,8 @@
   "DMM": {
     "place": "Dammam, Saudi Arabia",
     "place_zh": "沙特阿拉伯达曼",
-    "lat": 26.471201,
-    "lng": 49.797901,
+    "lat": 26.4691,
+    "lng": 49.798209,
     "cca2": "SA",
     "region": null
   },
@@ -842,8 +842,8 @@
   "EBL": {
     "place": "Erbil, Iraq",
     "place_zh": "伊拉克埃尔比勒",
-    "lat": 36.23759841918945,
-    "lng": 43.963199615478516,
+    "lat": 36.236047,
+    "lng": 43.946615,
     "cca2": "IQ",
     "region": null
   },
@@ -858,8 +858,8 @@
   "EVN": {
     "place": "Yerevan, Armenia",
     "place_zh": "亚美尼亚埃里温",
-    "lat": 40.1473007202,
-    "lng": 44.3959007263,
+    "lat": 40.148941,
+    "lng": 44.397887,
     "cca2": "AM",
     "region": null
   },
@@ -906,8 +906,8 @@
   "FOC": {
     "place": "Fuzhou, China",
     "place_zh": "中国福州",
-    "lat": 25.934669,
-    "lng": 119.66318,
+    "lat": 25.929254,
+    "lng": 119.672524,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -1402,8 +1402,8 @@
   "KJA": {
     "place": "Krasnoyarsk, Russia",
     "place_zh": "俄罗斯克拉斯诺亚尔斯克",
-    "lat": 56.173077,
-    "lng": 92.492437,
+    "lat": 56.175743,
+    "lng": 92.485788,
     "cca2": "RU",
     "region": "Europe"
   },
@@ -1442,8 +1442,8 @@
   "KWE": {
     "place": "Guiyang, China",
     "place_zh": "中国贵阳",
-    "lat": 26.541466,
-    "lng": 106.803331,
+    "lat": 26.541805,
+    "lng": 106.80402,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -1826,8 +1826,8 @@
   "NNG": {
     "place": "Nanning, China",
     "place_zh": "中国南宁",
-    "lat": 22.608544,
-    "lng": 108.175335,
+    "lat": 22.598071,
+    "lng": 108.181922,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -1922,8 +1922,8 @@
   "ORN": {
     "place": "Oran, Algeria",
     "place_zh": "阿尔及利亚奥兰",
-    "lat": 35.623901,
-    "lng": -0.621183,
+    "lat": 35.620648,
+    "lng": -0.622486,
     "cca2": "DZ",
     "region": null
   },
@@ -1938,8 +1938,8 @@
   "OTP": {
     "place": "Bucharest, Romania",
     "place_zh": "罗马尼亚布加勒斯特",
-    "lat": 44.572127,
-    "lng": 26.103396,
+    "lat": 44.571792,
+    "lng": 26.103285,
     "cca2": "RO",
     "region": null
   },
@@ -2018,8 +2018,8 @@
   "PKX": {
     "place": "Langfang, China",
     "place_zh": "中国廊坊",
-    "lat": 39.509945,
-    "lng": 116.41092,
+    "lat": 39.501289,
+    "lng": 116.413967,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -2370,8 +2370,8 @@
   "SUV": {
     "place": "Suva, Fiji",
     "place_zh": "斐济苏瓦",
-    "lat": -18.04330062866211,
-    "lng": 178.5590057373047,
+    "lat": -18.044226,
+    "lng": 178.561486,
     "cca2": "FJ",
     "region": null
   },
@@ -2674,8 +2674,8 @@
   "XNN": {
     "place": "Xining, China",
     "place_zh": "中国西宁",
-    "lat": 36.530093,
-    "lng": 102.040062,
+    "lat": 36.52775,
+    "lng": 102.040215,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -2722,8 +2722,8 @@
   "YXE": {
     "place": "Saskatoon, Canada",
     "place_zh": "加拿大萨斯卡通",
-    "lat": 52.170799255371094,
-    "lng": -106.69999694824219,
+    "lat": 52.170723,
+    "lng": -106.700793,
     "cca2": "CA",
     "region": null
   },
@@ -2738,8 +2738,8 @@
   "YYZ": {
     "place": "Toronto, Canada",
     "place_zh": "加拿大多伦多",
-    "lat": 43.6772,
-    "lng": -79.6306,
+    "lat": 43.675742,
+    "lng": -79.629374,
     "cca2": "CA",
     "region": null
   },
