@@ -642,8 +642,8 @@
   "CPT": {
     "place": "Cape Town, South Africa",
     "place_zh": "南非开普敦",
-    "lat": -33.9648017883,
-    "lng": 18.6016998291,
+    "lat": -33.97403,
+    "lng": 18.604333,
     "cca2": "ZA",
     "region": null
   },
@@ -922,8 +922,8 @@
   "FRA": {
     "place": "Frankfurt, Germany",
     "place_zh": "德国法兰克福",
-    "lat": 50.030241,
-    "lng": 8.561096,
+    "lat": 50.026706,
+    "lng": 8.55835,
     "cca2": "DE",
     "region": null
   },
@@ -1130,8 +1130,8 @@
   "HKG": {
     "place": "Hong Kong",
     "place_zh": "中国香港",
-    "lat": 22.308901,
-    "lng": 113.915001,
+    "lat": 22.31184,
+    "lng": 113.914862,
     "cca2": "HK",
     "region": null
   },
@@ -1210,8 +1210,8 @@
   "IST": {
     "place": "Istanbul, Turkey",
     "place_zh": "土耳其伊斯坦布尔",
-    "lat": 41.261297,
-    "lng": 28.741951,
+    "lat": 41.274874,
+    "lng": 28.732136,
     "cca2": "TR",
     "region": null
   },
@@ -1282,8 +1282,8 @@
   "JNB": {
     "place": "Johannesburg, South Africa",
     "place_zh": "南非约翰内斯堡",
-    "lat": -26.1392,
-    "lng": 28.246,
+    "lat": -26.140081,
+    "lng": 28.246801,
     "cca2": "ZA",
     "region": null
   },
@@ -1610,8 +1610,8 @@
   "MAD": {
     "place": "Madrid, Spain",
     "place_zh": "西班牙马德里",
-    "lat": 40.471926,
-    "lng": -3.56264,
+    "lat": 40.493407,
+    "lng": -3.572249,
     "cca2": "ES",
     "region": null
   },
@@ -1714,8 +1714,8 @@
   "MLA": {
     "place": "Santa Venera, Malta",
     "place_zh": "马耳他圣维内拉",
-    "lat": 35.857498,
-    "lng": 14.4775,
+    "lat": 35.845932,
+    "lng": 14.491546,
     "cca2": "MT",
     "region": null
   },
@@ -2162,8 +2162,8 @@
   "SAN": {
     "place": "San Diego, United States",
     "place_zh": "美国圣迭戈",
-    "lat": 32.7336006165,
-    "lng": -117.190002441,
+    "lat": 32.733601,
+    "lng": -117.190002,
     "cca2": "US",
     "region": "North America"
   },
@@ -2394,8 +2394,8 @@
   "SZX": {
     "place": "Shenzhen, China",
     "place_zh": "中国深圳",
-    "lat": 22.639299,
-    "lng": 113.810997,
+    "lat": 22.639474,
+    "lng": 113.803262,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
