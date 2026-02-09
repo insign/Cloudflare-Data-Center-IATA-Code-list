@@ -274,8 +274,8 @@
   "BHY": {
     "place": "Beihai, China",
     "place_zh": "中国北海",
-    "lat": 21.5394,
-    "lng": 109.293999,
+    "lat": 21.538659,
+    "lng": 109.293683,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
@@ -1586,8 +1586,8 @@
   "LUX": {
     "place": "Luxembourg City, Luxembourg",
     "place_zh": "卢森堡卢森堡市",
-    "lat": 49.6233333,
-    "lng": 6.2044444,
+    "lat": 49.626845,
+    "lng": 6.212134,
     "cca2": "LU",
     "region": null
   },
@@ -1712,8 +1712,8 @@
     "region": "North America"
   },
   "MLA": {
-    "place": "Santa Venera, Malta",
-    "place_zh": "马耳他圣维内拉",
+    "place": "Valletta, Malta",
+    "place_zh": "瓦莱塔, 马耳他",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
@@ -1722,8 +1722,8 @@
   "MLE": {
     "place": "Male, Maldives",
     "place_zh": "马尔代夫马累",
-    "lat": 4.191830158233643,
-    "lng": 73.52909851074219,
+    "lat": 4.19183,
+    "lng": 73.529099,
     "cca2": "MV",
     "region": null
   },
