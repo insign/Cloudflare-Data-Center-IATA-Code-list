@@ -826,8 +826,8 @@
   "DXB": {
     "place": "Dubai, United Arab Emirates",
     "place_zh": "阿联酋迪拜",
-    "lat": 25.2527999878,
-    "lng": 55.3643989563,
+    "lat": 25.24979,
+    "lng": 55.370992,
     "cca2": "AE",
     "region": null
   },
@@ -866,8 +866,8 @@
   "EWR": {
     "place": "Newark, United States",
     "place_zh": "美国纽瓦克",
-    "lat": 40.692501,
-    "lng": -74.168701,
+    "lat": 40.6894,
+    "lng": -74.170545,
     "cca2": "US",
     "region": "North America"
   },
@@ -1258,8 +1258,8 @@
   "JED": {
     "place": "Jeddah, Saudi Arabia",
     "place_zh": "沙特阿拉伯吉达",
-    "lat": 21.6796,
-    "lng": 39.156502,
+    "lat": 21.680241,
+    "lng": 39.157436,
     "cca2": "SA",
     "region": null
   },
@@ -1642,8 +1642,8 @@
   "MCI": {
     "place": "Kansas City, United States",
     "place_zh": "美国堪萨斯城",
-    "lat": 39.2976,
-    "lng": -94.713898,
+    "lat": 39.301699,
+    "lng": -94.713893,
     "cca2": "US",
     "region": "North America"
   },
@@ -1682,8 +1682,8 @@
   "MEX": {
     "place": "Mexico City, Mexico",
     "place_zh": "墨西哥墨西哥城",
-    "lat": 19.435137,
-    "lng": -99.071328,
+    "lat": 19.435822,
+    "lng": -99.07033,
     "cca2": "MX",
     "region": null
   },
@@ -1706,14 +1706,14 @@
   "MIA": {
     "place": "Miami, United States",
     "place_zh": "美国迈阿密",
-    "lat": 25.7932,
-    "lng": -80.290604,
+    "lat": 25.796011,
+    "lng": -80.289751,
     "cca2": "US",
     "region": "North America"
   },
   "MLA": {
     "place": "Valletta, Malta",
-    "place_zh": "瓦莱塔, 马耳他",
+    "place_zh": "马耳他瓦莱塔",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
@@ -1810,8 +1810,8 @@
   "NBO": {
     "place": "Nairobi, Kenya",
     "place_zh": "肯尼亚内罗毕",
-    "lat": -1.31923997402,
-    "lng": 36.9277992249,
+    "lat": -1.318886,
+    "lng": 36.928233,
     "cca2": "KE",
     "region": null
   },
@@ -2450,7 +2450,7 @@
   "TLH": {
     "place": "Tallahassee, United States",
     "place_zh": "美国塔拉哈西",
-    "lat": 30.400369,
+    "lat": 30.401209,
     "lng": -84.35433,
     "cca2": "US",
     "region": "North America"
