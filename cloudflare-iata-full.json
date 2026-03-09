@@ -31,6 +31,14 @@
     "cca2": "GH",
     "region": null
   },
+  "ACX": {
+    "place": "Xingyi, China",
+    "place_zh": "Xingyi, China",
+    "lat": 25.083423,
+    "lng": 104.960804,
+    "cca2": "CN",
+    "region": "Asia Pacific"
+  },
   "ADB": {
     "place": "Izmir, Turkey",
     "place_zh": "土耳其伊兹密尔",
@@ -1042,8 +1050,8 @@
   "GYD": {
     "place": "Baku, Azerbaijan",
     "place_zh": "阿塞拜疆巴库",
-    "lat": 40.467498779296875,
-    "lng": 50.04669952392578,
+    "lat": 40.47278,
+    "lng": 50.050931,
     "cca2": "AZ",
     "region": null
   },
@@ -1713,7 +1721,7 @@
   },
   "MLA": {
     "place": "Valletta, Malta",
-    "place_zh": "马耳他瓦莱塔",
+    "place_zh": "瓦莱塔, 马耳他",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
