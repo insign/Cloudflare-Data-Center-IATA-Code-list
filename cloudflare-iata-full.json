@@ -2639,6 +2639,14 @@
     "cca2": "CN",
     "region": "Asia Pacific"
   },
+  "WLG": {
+    "place": "Wellington, New Zealand",
+    "place_zh": "新西兰惠灵顿",
+    "lat": -41.326839,
+    "lng": 174.806862,
+    "cca2": "NZ",
+    "region": null
+  },
   "WRO": {
     "place": "Wroclaw, Poland",
     "place_zh": "波兰弗罗茨瓦夫",
