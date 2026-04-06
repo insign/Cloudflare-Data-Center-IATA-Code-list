@@ -1599,6 +1599,14 @@
     "cca2": "LU",
     "region": null
   },
+  "LYA": {
+    "place": "Luoyang, China",
+    "place_zh": "Luoyang, China",
+    "lat": 34.7411,
+    "lng": 112.388,
+    "cca2": "CN",
+    "region": "Asia Pacific"
+  },
   "LYS": {
     "place": "Lyon, France",
     "place_zh": "法国里昂",
