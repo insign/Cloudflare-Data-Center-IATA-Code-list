@@ -1543,6 +1543,14 @@
     "cca2": "PT",
     "region": null
   },
+  "LJU": {
+    "place": "Ljubljana, Slovenia",
+    "place_zh": "斯洛文尼亚卢布尔雅那",
+    "lat": 46.223701,
+    "lng": 14.4576,
+    "cca2": "SI",
+    "region": null
+  },
   "LLK": {
     "place": "Astara, Azerbaijan",
     "place_zh": "阿塞拜疆阿斯塔拉",
