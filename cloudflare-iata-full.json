@@ -1226,8 +1226,8 @@
   "ISU": {
     "place": "Sulaymaniyah, Iraq",
     "place_zh": "伊拉克苏莱曼尼亚",
-    "lat": 35.5617485046,
-    "lng": 45.316738128699996,
+    "lat": 35.560487,
+    "lng": 45.315137,
     "cca2": "IQ",
     "region": null
   },
@@ -2070,6 +2070,14 @@
     "lng": 104.844699,
     "cca2": "KH",
     "region": null
+  },
+  "PNQ": {
+    "place": "Pune, India",
+    "place_zh": "印度浦那",
+    "lat": 18.5821,
+    "lng": 73.919701,
+    "cca2": "IN",
+    "region": "Asia Pacific"
   },
   "POA": {
     "place": "Porto Alegre, Brazil",
