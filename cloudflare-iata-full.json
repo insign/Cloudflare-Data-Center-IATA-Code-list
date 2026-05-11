@@ -1311,6 +1311,14 @@
     "cca2": "BR",
     "region": "South America"
   },
+  "JRG": {
+    "place": "Sambalpur, India",
+    "place_zh": "印度萨姆巴尔普尔",
+    "lat": 21.9135,
+    "lng": 84.0504,
+    "cca2": "IN",
+    "region": "Asia Pacific"
+  },
   "JSR": {
     "place": "Jashore, Bangladesh",
     "place_zh": "孟加拉国杰索尔",
@@ -2698,8 +2706,8 @@
   "XIY": {
     "place": "Baoji, China",
     "place_zh": "中国宝鸡",
-    "lat": 34.447102,
-    "lng": 108.751999,
+    "lat": 34.442207,
+    "lng": 108.762385,
     "cca2": "CN",
     "region": "Asia Pacific"
   },
