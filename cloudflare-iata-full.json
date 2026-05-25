@@ -336,7 +336,7 @@
     "region": null
   },
   "BOG": {
-    "place": "Bogota, Colombia",
+    "place": "Bogotá, Colombia",
     "place_zh": "哥伦比亚波哥大",
     "lat": 4.70159,
     "lng": -74.1469,
@@ -480,8 +480,8 @@
     "region": null
   },
   "CFC": {
-    "place": "Cacador, Brazil",
-    "place_zh": "巴西卡萨多尔",
+    "place": "Caçador, Brazil",
+    "place_zh": "巴西卡卡多尔",
     "lat": -26.787423,
     "lng": -50.939942,
     "cca2": "BR",
@@ -720,7 +720,7 @@
     "region": null
   },
   "DAR": {
-    "place": "Dar es Salaam, Tanzania",
+    "place": "Dar Es Salaam, Tanzania",
     "place_zh": "坦桑尼亚达累斯萨拉姆",
     "lat": -6.873499,
     "lng": 39.207288,
@@ -1064,7 +1064,7 @@
     "region": null
   },
   "GYN": {
-    "place": "Goiania, Brazil",
+    "place": "Goiânia, Brazil",
     "place_zh": "巴西戈亚尼亚",
     "lat": -16.632,
     "lng": -49.220699,
@@ -1072,8 +1072,8 @@
     "region": "South America"
   },
   "HAK": {
-    "place": "Chengmai, China",
-    "place_zh": "中国澄迈",
+    "place": "Haikou, China",
+    "place_zh": "中国海口",
     "lat": 19.9349,
     "lng": 110.459,
     "cca2": "CN",
@@ -1384,8 +1384,8 @@
     "region": null
   },
   "KHN": {
-    "place": "Nanchang, China",
-    "place_zh": "中国南昌",
+    "place": "Xinyu, China",
+    "place_zh": "中国新余市",
     "lat": 28.864815,
     "lng": 115.90271,
     "cca2": "CN",
@@ -1744,16 +1744,16 @@
     "region": "North America"
   },
   "MLA": {
-    "place": "Valletta, Malta",
-    "place_zh": "瓦莱塔, 马耳他",
+    "place": "Santa Venera, Malta",
+    "place_zh": "马耳他圣维内拉",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
     "region": null
   },
   "MLE": {
-    "place": "Male, Maldives",
-    "place_zh": "马尔代夫马累",
+    "place": "Malé, Maldives",
+    "place_zh": "马累, 马尔代夫",
     "lat": 4.19183,
     "lng": 73.529099,
     "cca2": "MV",
@@ -1872,7 +1872,7 @@
     "region": null
   },
   "NQN": {
-    "place": "Neuquen, Argentina",
+    "place": "Neuquén, Argentina",
     "place_zh": "阿根廷内乌肯",
     "lat": -38.949001,
     "lng": -68.155701,
@@ -1896,8 +1896,8 @@
     "region": null
   },
   "NVT": {
-    "place": "Timbo, Brazil",
-    "place_zh": "巴西廷博",
+    "place": "Timbó, Brazil",
+    "place_zh": "巴西蒂姆博",
     "lat": -26.879431,
     "lng": -48.650979,
     "cca2": "BR",
@@ -2320,8 +2320,8 @@
     "region": null
   },
   "SJW": {
-    "place": "Shijiazhuang, China",
-    "place_zh": "中国石家庄",
+    "place": "Hengshui, China",
+    "place_zh": "中国衡水",
     "lat": 38.280701,
     "lng": 114.696999,
     "cca2": "CN",
@@ -2512,8 +2512,8 @@
     "region": null
   },
   "TNA": {
-    "place": "Zibo, China",
-    "place_zh": "中国淄博",
+    "place": "Jinan, China",
+    "place_zh": "中国济南",
     "lat": 36.857201,
     "lng": 117.216003,
     "cca2": "CN",
@@ -2576,7 +2576,7 @@
     "region": "Asia Pacific"
   },
   "UDI": {
-    "place": "Uberlandia, Brazil",
+    "place": "Uberlândia, Brazil",
     "place_zh": "巴西乌贝兰迪亚",
     "lat": -18.883579,
     "lng": -48.225936,
