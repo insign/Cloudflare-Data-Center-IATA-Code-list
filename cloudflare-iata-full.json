@@ -65,7 +65,7 @@
   },
   "AGR": {
     "place": "Agra, India",
-    "place_zh": "印度阿格拉",
+    "place_zh": "Agra, India",
     "lat": 27.157975,
     "lng": 77.961025,
     "cca2": "IN",
@@ -337,7 +337,7 @@
   },
   "BOG": {
     "place": "Bogotá, Colombia",
-    "place_zh": "哥伦比亚波哥大",
+    "place_zh": "Bogotá, Colombia",
     "lat": 4.70159,
     "lng": -74.1469,
     "cca2": "CO",
@@ -481,7 +481,7 @@
   },
   "CFC": {
     "place": "Caçador, Brazil",
-    "place_zh": "巴西卡卡多尔",
+    "place_zh": "Caçador, Brazil",
     "lat": -26.787423,
     "lng": -50.939942,
     "cca2": "BR",
@@ -545,7 +545,7 @@
   },
   "CJB": {
     "place": "Coimbatore, India",
-    "place_zh": "印度哥印拜陀",
+    "place_zh": "Coimbatore, India",
     "lat": 11.03,
     "lng": 77.043404,
     "cca2": "IN",
@@ -721,7 +721,7 @@
   },
   "DAR": {
     "place": "Dar Es Salaam, Tanzania",
-    "place_zh": "坦桑尼亚达累斯萨拉姆",
+    "place_zh": "Dar Es Salaam, Tanzania",
     "lat": -6.873499,
     "lng": 39.207288,
     "cca2": "TZ",
@@ -1065,7 +1065,7 @@
   },
   "GYN": {
     "place": "Goiânia, Brazil",
-    "place_zh": "巴西戈亚尼亚",
+    "place_zh": "Goiânia, Brazil",
     "lat": -16.632,
     "lng": -49.220699,
     "cca2": "BR",
@@ -1073,7 +1073,7 @@
   },
   "HAK": {
     "place": "Haikou, China",
-    "place_zh": "中国海口",
+    "place_zh": "Haikou, China",
     "lat": 19.9349,
     "lng": 110.459,
     "cca2": "CN",
@@ -1313,7 +1313,7 @@
   },
   "JRG": {
     "place": "Sambalpur, India",
-    "place_zh": "印度萨姆巴尔普尔",
+    "place_zh": "Sambalpur, India",
     "lat": 21.9135,
     "lng": 84.0504,
     "cca2": "IN",
@@ -1385,7 +1385,7 @@
   },
   "KHN": {
     "place": "Xinyu, China",
-    "place_zh": "中国新余市",
+    "place_zh": "Xinyu, China",
     "lat": 28.864815,
     "lng": 115.90271,
     "cca2": "CN",
@@ -1745,7 +1745,7 @@
   },
   "MLA": {
     "place": "Santa Venera, Malta",
-    "place_zh": "马耳他圣维内拉",
+    "place_zh": "Santa Venera, Malta",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
@@ -1753,7 +1753,7 @@
   },
   "MLE": {
     "place": "Malé, Maldives",
-    "place_zh": "马累, 马尔代夫",
+    "place_zh": "Malé, Maldives",
     "lat": 4.19183,
     "lng": 73.529099,
     "cca2": "MV",
@@ -2577,7 +2577,7 @@
   },
   "UDI": {
     "place": "Uberlândia, Brazil",
-    "place_zh": "巴西乌贝兰迪亚",
+    "place_zh": "Uberlândia, Brazil",
     "lat": -18.883579,
     "lng": -48.225936,
     "cca2": "BR",
@@ -2673,7 +2673,7 @@
   },
   "WLG": {
     "place": "Wellington, New Zealand",
-    "place_zh": "新西兰惠灵顿",
+    "place_zh": "Wellington, New Zealand",
     "lat": -41.326839,
     "lng": 174.806862,
     "cca2": "NZ",
