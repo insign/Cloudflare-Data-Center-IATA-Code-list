@@ -679,6 +679,14 @@
     "cca2": "CN",
     "region": "Asia Pacific"
   },
+  "CVG": {
+    "place": "Cincinnati, United States",
+    "place_zh": "美国辛辛那提",
+    "lat": 39.048801,
+    "lng": -84.667801,
+    "cca2": "US",
+    "region": "North America"
+  },
   "CWB": {
     "place": "Curitiba, Brazil",
     "place_zh": "巴西库里提巴",
@@ -1073,7 +1081,7 @@
   },
   "HAK": {
     "place": "Haikou, China",
-    "place_zh": "中国海口",
+    "place_zh": "海口, 中国",
     "lat": 19.9349,
     "lng": 110.459,
     "cca2": "CN",
@@ -1313,7 +1321,7 @@
   },
   "JRG": {
     "place": "Sambalpur, India",
-    "place_zh": "印度萨姆巴尔普尔",
+    "place_zh": "印度桑巴尔普尔",
     "lat": 21.9135,
     "lng": 84.0504,
     "cca2": "IN",
@@ -1368,8 +1376,8 @@
     "region": null
   },
   "KHH": {
-    "place": "Kaohsiung City, Taiwan",
-    "place_zh": "中国台湾高雄",
+    "place": "Kaohsiung City",
+    "place_zh": "高雄市",
     "lat": 22.577101,
     "lng": 120.349998,
     "cca2": "TW",
