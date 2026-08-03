@@ -199,6 +199,14 @@
     "cca2": "US",
     "region": "North America"
   },
+  "AVA": {
+    "place": "Anshun, China",
+    "place_zh": "中国安顺",
+    "lat": 26.260556,
+    "lng": 105.873333,
+    "cca2": "CN",
+    "region": "Asia Pacific"
+  },
   "BAH": {
     "place": "Manama, Bahrain",
     "place_zh": "巴林麦纳麦",
@@ -230,6 +238,14 @@
     "lng": 2.07846,
     "cca2": "ES",
     "region": null
+  },
+  "BDQ": {
+    "place": "Jamnagar, India",
+    "place_zh": "印度贾姆讷格尔",
+    "lat": 22.336201,
+    "lng": 73.226303,
+    "cca2": "IN",
+    "region": "Asia Pacific"
   },
   "BEG": {
     "place": "Belgrade, Serbia",
@@ -1089,7 +1105,7 @@
   },
   "HAK": {
     "place": "Haikou, China",
-    "place_zh": "海口, 中国",
+    "place_zh": "中国海口",
     "lat": 19.9349,
     "lng": 110.459,
     "cca2": "CN",
@@ -1769,7 +1785,7 @@
   },
   "MLE": {
     "place": "Malé, Maldives",
-    "place_zh": "马累, 马尔代夫",
+    "place_zh": "Malé, Maldives",
     "lat": 4.19183,
     "lng": 73.529099,
     "cca2": "MV",
