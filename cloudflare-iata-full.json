@@ -1785,7 +1785,7 @@
   },
   "MLE": {
     "place": "Malé, Maldives",
-    "place_zh": "Malé, Maldives",
+    "place_zh": "马累, 马尔代夫",
     "lat": 4.19183,
     "lng": 73.529099,
     "cca2": "MV",
@@ -2614,6 +2614,14 @@
     "lng": -48.225936,
     "cca2": "BR",
     "region": "South America"
+  },
+  "UDR": {
+    "place": "Udaipur, India",
+    "place_zh": "印度乌代布尔",
+    "lat": 24.617700576799997,
+    "lng": 73.89610290530001,
+    "cca2": "IN",
+    "region": "Asia Pacific"
   },
   "UIO": {
     "place": "Quito, Ecuador",
