@@ -879,6 +879,14 @@
     "cca2": "AE",
     "region": null
   },
+  "DYU": {
+    "place": "Dushanbe, Tajikistan",
+    "place_zh": "Dushanbe, Tajikistan",
+    "lat": 38.543746,
+    "lng": 68.822977,
+    "cca2": "TJ",
+    "region": null
+  },
   "EBB": {
     "place": "Kampala, Uganda",
     "place_zh": "乌干达坎帕拉",
