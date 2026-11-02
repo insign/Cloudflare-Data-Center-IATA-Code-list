@@ -8,8 +8,8 @@
     "region": null
   },
   "ABJ": {
-    "place": "Abidjan, Ivory Coast",
-    "place_zh": "科特迪瓦阿比让",
+    "place": "Abidjan, Côte d’Ivoire",
+    "place_zh": "Abidjan, Côte d’Ivoire",
     "lat": 5.26139,
     "lng": -3.92629,
     "cca2": "CI",
@@ -168,8 +168,8 @@
     "region": "South America"
   },
   "ASK": {
-    "place": "Yamoussoukro, Ivory Coast",
-    "place_zh": "科特迪瓦亚穆苏克罗",
+    "place": "Yamoussoukro, Côte d’Ivoire",
+    "place_zh": "Yamoussoukro, Côte d’Ivoire",
     "lat": 6.90317,
     "lng": -5.36558,
     "cca2": "CI",
@@ -504,8 +504,8 @@
     "region": null
   },
   "CFC": {
-    "place": "Caçador, Brazil",
-    "place_zh": "Caçador, Brazil",
+    "place": "Cacador, Brazil",
+    "place_zh": "巴西卡萨多尔",
     "lat": -26.787423,
     "lng": -50.939942,
     "cca2": "BR",
@@ -752,8 +752,8 @@
     "region": null
   },
   "DAR": {
-    "place": "Dar Es Salaam, Tanzania",
-    "place_zh": "Dar Es Salaam, Tanzania",
+    "place": "Dar es Salaam, Tanzania",
+    "place_zh": "坦桑尼亚达累斯萨拉姆",
     "lat": -6.873499,
     "lng": 39.207288,
     "cca2": "TZ",
@@ -858,8 +858,8 @@
   "DUR": {
     "place": "Durban, South Africa",
     "place_zh": "南非德班",
-    "lat": -29.6144444444,
-    "lng": 31.1197222222,
+    "lat": -29.613381,
+    "lng": 31.117942,
     "cca2": "ZA",
     "region": null
   },
@@ -1112,16 +1112,16 @@
     "region": null
   },
   "GYN": {
-    "place": "Goiânia, Brazil",
-    "place_zh": "Goiânia, Brazil",
+    "place": "Goiania, Brazil",
+    "place_zh": "巴西戈亚尼亚",
     "lat": -16.632,
     "lng": -49.220699,
     "cca2": "BR",
     "region": "South America"
   },
   "HAK": {
-    "place": "Haikou, China",
-    "place_zh": "Haikou, China",
+    "place": "Chengmai, China",
+    "place_zh": "中国澄迈",
     "lat": 19.9349,
     "lng": 110.459,
     "cca2": "CN",
@@ -1295,6 +1295,14 @@
     "cca2": "IN",
     "region": "Asia Pacific"
   },
+  "JAI": {
+    "place": "“Jaipur”, India",
+    "place_zh": "“Jaipur”, India",
+    "lat": 26.8242,
+    "lng": 75.812202,
+    "cca2": "IN",
+    "region": "Asia Pacific"
+  },
   "JAX": {
     "place": "Jacksonville, United States",
     "place_zh": "美国杰克逊维尔",
@@ -1432,8 +1440,8 @@
     "region": null
   },
   "KHN": {
-    "place": "Xinyu, China",
-    "place_zh": "Xinyu, China",
+    "place": "Nanchang, China",
+    "place_zh": "中国南昌",
     "lat": 28.864815,
     "lng": 115.90271,
     "cca2": "CN",
@@ -1800,16 +1808,16 @@
     "region": "North America"
   },
   "MLA": {
-    "place": "Santa Venera, Malta",
-    "place_zh": "Santa Venera, Malta",
+    "place": "Valletta, Malta",
+    "place_zh": "Valletta, Malta",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
     "region": null
   },
   "MLE": {
-    "place": "Malé, Maldives",
-    "place_zh": "Malé, Maldives",
+    "place": "Male, Maldives",
+    "place_zh": "马尔代夫马累",
     "lat": 4.19183,
     "lng": 73.529099,
     "cca2": "MV",
@@ -1928,7 +1936,7 @@
     "region": null
   },
   "NQN": {
-    "place": "Neuquén, Argentina",
+    "place": "Neuquen, Argentina",
     "place_zh": "阿根廷内乌肯",
     "lat": -38.949001,
     "lng": -68.155701,
@@ -1952,8 +1960,8 @@
     "region": null
   },
   "NVT": {
-    "place": "Timbó, Brazil",
-    "place_zh": "巴西蒂姆博",
+    "place": "Timbo, Brazil",
+    "place_zh": "巴西廷博",
     "lat": -26.879431,
     "lng": -48.650979,
     "cca2": "BR",
@@ -2104,8 +2112,8 @@
     "region": "North America"
   },
   "PKX": {
-    "place": "Langfang, China",
-    "place_zh": "中国廊坊",
+    "place": "Beijing, China",
+    "place_zh": "Beijing, China",
     "lat": 39.501289,
     "lng": 116.413967,
     "cca2": "CN",
@@ -2152,8 +2160,8 @@
     "region": "South America"
   },
   "POS": {
-    "place": "Port of Spain, Trinidad and Tobago",
-    "place_zh": "特立尼达和多巴哥西班牙港",
+    "place": "Port of Spain, Trinidad & Tobago",
+    "place_zh": "Port of Spain, Trinidad & Tobago",
     "lat": 10.59535,
     "lng": -61.337568,
     "cca2": "TT",
@@ -2168,8 +2176,8 @@
     "region": null
   },
   "PRG": {
-    "place": "Prague, Czech Republic",
-    "place_zh": "捷克共和国布拉格",
+    "place": "Prague, Czechia",
+    "place_zh": "Prague, Czechia",
     "lat": 50.100874,
     "lng": 14.259911,
     "cca2": "CZ",
@@ -2400,8 +2408,8 @@
     "region": null
   },
   "SKP": {
-    "place": "Skopje, North Macedonia",
-    "place_zh": "北马其顿斯科普里",
+    "place": "Skopje, Macedonia",
+    "place_zh": "Skopje, Macedonia",
     "lat": 41.958087,
     "lng": 21.622581,
     "cca2": "MK",
@@ -2640,8 +2648,8 @@
     "region": "Asia Pacific"
   },
   "UDI": {
-    "place": "Uberlândia, Brazil",
-    "place_zh": "Uberlândia, Brazil",
+    "place": "Uberlandia, Brazil",
+    "place_zh": "巴西乌贝兰迪亚",
     "lat": -18.883579,
     "lng": -48.225936,
     "cca2": "BR",
