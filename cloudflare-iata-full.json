@@ -9,7 +9,7 @@
   },
   "ABJ": {
     "place": "Abidjan, Côte d’Ivoire",
-    "place_zh": "Abidjan, Côte d’Ivoire",
+    "place_zh": "阿比让, 科特迪瓦",
     "lat": 5.26139,
     "lng": -3.92629,
     "cca2": "CI",
@@ -65,7 +65,7 @@
   },
   "AGR": {
     "place": "Agra, India",
-    "place_zh": "Agra, India",
+    "place_zh": "印度阿格拉",
     "lat": 27.157975,
     "lng": 77.961025,
     "cca2": "IN",
@@ -73,7 +73,7 @@
   },
   "AIP": {
     "place": "Jalandhar, India",
-    "place_zh": "Jalandhar, India",
+    "place_zh": "印度贾朗达尔",
     "lat": 31.4338,
     "lng": 75.758797,
     "cca2": "IN",
@@ -169,7 +169,7 @@
   },
   "ASK": {
     "place": "Yamoussoukro, Côte d’Ivoire",
-    "place_zh": "Yamoussoukro, Côte d’Ivoire",
+    "place_zh": "亚穆苏克罗, 科特迪瓦",
     "lat": 6.90317,
     "lng": -5.36558,
     "cca2": "CI",
@@ -209,7 +209,7 @@
   },
   "AVA": {
     "place": "Anshun, China",
-    "place_zh": "Anshun, China",
+    "place_zh": "中国安顺",
     "lat": 26.260556,
     "lng": 105.873333,
     "cca2": "CN",
@@ -249,7 +249,7 @@
   },
   "BDQ": {
     "place": "Jamnagar, India",
-    "place_zh": "Jamnagar, India",
+    "place_zh": "印度贾姆讷格尔",
     "lat": 22.336201,
     "lng": 73.226303,
     "cca2": "IN",
@@ -361,7 +361,7 @@
   },
   "BOG": {
     "place": "Bogotá, Colombia",
-    "place_zh": "Bogotá, Colombia",
+    "place_zh": "哥伦比亚波哥大",
     "lat": 4.70159,
     "lng": -74.1469,
     "cca2": "CO",
@@ -569,7 +569,7 @@
   },
   "CJB": {
     "place": "Coimbatore, India",
-    "place_zh": "Coimbatore, India",
+    "place_zh": "印度哥印拜陀",
     "lat": 11.03,
     "lng": 77.043404,
     "cca2": "IN",
@@ -705,7 +705,7 @@
   },
   "CVG": {
     "place": "Cincinnati, United States",
-    "place_zh": "Cincinnati, United States",
+    "place_zh": "美国辛辛那提",
     "lat": 39.048801,
     "lng": -84.667801,
     "cca2": "US",
@@ -793,7 +793,7 @@
   },
   "DLA": {
     "place": "Douala, Cameroon",
-    "place_zh": "Douala, Cameroon",
+    "place_zh": "喀麦隆杜阿拉",
     "lat": 4.00608,
     "lng": 9.71948,
     "cca2": "CM",
@@ -881,7 +881,7 @@
   },
   "DYU": {
     "place": "Dushanbe, Tajikistan",
-    "place_zh": "Dushanbe, Tajikistan",
+    "place_zh": "塔吉克斯坦杜尚别",
     "lat": 38.543746,
     "lng": 68.822977,
     "cca2": "TJ",
@@ -1297,7 +1297,7 @@
   },
   "JAI": {
     "place": "“Jaipur”, India",
-    "place_zh": "“Jaipur”, India",
+    "place_zh": "印度“斋浦尔”",
     "lat": 26.8242,
     "lng": 75.812202,
     "cca2": "IN",
@@ -1369,7 +1369,7 @@
   },
   "JRG": {
     "place": "Sambalpur, India",
-    "place_zh": "Sambalpur, India",
+    "place_zh": "印度萨姆巴尔普尔",
     "lat": 21.9135,
     "lng": 84.0504,
     "cca2": "IN",
@@ -1425,7 +1425,7 @@
   },
   "KHH": {
     "place": "Kaohsiung City",
-    "place_zh": "Kaohsiung City",
+    "place_zh": "高雄市",
     "lat": 22.577101,
     "lng": 120.349998,
     "cca2": "TW",
@@ -1609,7 +1609,7 @@
   },
   "LJU": {
     "place": "Ljubljana, Slovenia",
-    "place_zh": "Ljubljana, Slovenia",
+    "place_zh": "斯洛文尼亚卢布尔雅那",
     "lat": 46.223701,
     "lng": 14.4576,
     "cca2": "SI",
@@ -1657,7 +1657,7 @@
   },
   "LUH": {
     "place": "Ludhiana, India",
-    "place_zh": "Ludhiana, India",
+    "place_zh": "印度卢迪亚纳",
     "lat": 30.854700088500977,
     "lng": 75.95259857177734,
     "cca2": "IN",
@@ -1809,7 +1809,7 @@
   },
   "MLA": {
     "place": "Valletta, Malta",
-    "place_zh": "Valletta, Malta",
+    "place_zh": "瓦莱塔, 马耳他",
     "lat": 35.845932,
     "lng": 14.491546,
     "cca2": "MT",
@@ -2113,7 +2113,7 @@
   },
   "PKX": {
     "place": "Beijing, China",
-    "place_zh": "Beijing, China",
+    "place_zh": "中国北京",
     "lat": 39.501289,
     "lng": 116.413967,
     "cca2": "CN",
@@ -2145,7 +2145,7 @@
   },
   "PNQ": {
     "place": "Pune, India",
-    "place_zh": "Pune, India",
+    "place_zh": "印度浦那",
     "lat": 18.5821,
     "lng": 73.919701,
     "cca2": "IN",
@@ -2161,7 +2161,7 @@
   },
   "POS": {
     "place": "Port of Spain, Trinidad & Tobago",
-    "place_zh": "Port of Spain, Trinidad & Tobago",
+    "place_zh": "西班牙港, 特立尼达和多巴哥",
     "lat": 10.59535,
     "lng": -61.337568,
     "cca2": "TT",
@@ -2177,7 +2177,7 @@
   },
   "PRG": {
     "place": "Prague, Czechia",
-    "place_zh": "Prague, Czechia",
+    "place_zh": "捷克布拉格",
     "lat": 50.100874,
     "lng": 14.259911,
     "cca2": "CZ",
@@ -2185,7 +2185,7 @@
   },
   "PRN": {
     "place": "Prishtine , Kosovo",
-    "place_zh": "Prishtine , Kosovo",
+    "place_zh": "科索沃普里什蒂纳",
     "lat": 42.5728,
     "lng": 21.035801,
     "cca2": "XK",
@@ -2409,7 +2409,7 @@
   },
   "SKP": {
     "place": "Skopje, Macedonia",
-    "place_zh": "Skopje, Macedonia",
+    "place_zh": "马其顿斯科普里",
     "lat": 41.958087,
     "lng": 21.622581,
     "cca2": "MK",
@@ -2657,7 +2657,7 @@
   },
   "UDR": {
     "place": "Udaipur, India",
-    "place_zh": "Udaipur, India",
+    "place_zh": "印度乌代布尔",
     "lat": 24.617700576799997,
     "lng": 73.89610290530001,
     "cca2": "IN",
@@ -2753,7 +2753,7 @@
   },
   "WLG": {
     "place": "Wellington, New Zealand",
-    "place_zh": "Wellington, New Zealand",
+    "place_zh": "新西兰惠灵顿",
     "lat": -41.326839,
     "lng": 174.806862,
     "cca2": "NZ",
