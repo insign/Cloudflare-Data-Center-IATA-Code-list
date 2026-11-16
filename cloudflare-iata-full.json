@@ -2298,8 +2298,8 @@
   "SCL": {
     "place": "Santiago, Chile",
     "place_zh": "智利圣地亚哥",
-    "lat": -33.393001556396484,
-    "lng": -70.78579711914062,
+    "lat": -33.390252,
+    "lng": -70.794697,
     "cca2": "CL",
     "region": null
   },
@@ -2766,6 +2766,14 @@
     "lng": 16.882096,
     "cca2": "PL",
     "region": null
+  },
+  "WUH": {
+    "place": "Wuhan, China",
+    "place_zh": "中国武汉",
+    "lat": 30.774798,
+    "lng": 114.213723,
+    "cca2": "CN",
+    "region": "Asia Pacific"
   },
   "XAP": {
     "place": "Chapeco, Brazil",
